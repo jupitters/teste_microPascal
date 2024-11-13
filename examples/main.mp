@@ -7,7 +7,7 @@ x := 10;
 y := 20;
 z := x + y * 2.5;
 if x > y then
-x:=x-1
+x:=x-1;
 else
 y := y + 1;
 while z <= 100 do

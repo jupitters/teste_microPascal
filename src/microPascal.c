@@ -10,20 +10,20 @@ void comp_microPascal(char* src)
     lexer_T* lexer = init_lexer(src);
     parser_T* parser = init_parser(lexer);
     AST_T* raiz = parser_parse(parser);
-    printf("%p\n", raiz);
-
     token_T* tok = 0;
+
+    /*
+    while((tok = lexer_prox_token(lexer))->tipo != T_EOF)
+    {
+        printf(("%s\n"), token_to_str(tok));
+        printf(("%s\n"), token_to_var(tok));
+    }
+    */
+    //printf("%ld\n\n", raiz->children->tam);
+
     token_T* lista = NULL;
     int indice = 0;
     FILE *fp = fopen("examples/tokens.lex", "w");
-
-    //TESTE NO CONSOLE
-    //while((tok = lexer_prox_token(lexer))->tipo != T_EOF)
-    //{
-//          printf("%s\n"), token_to_str(tok));
-    //}
-
-    //FIM DO TESTE NO CONSOLE
 
     while((tok = lexer_prox_token(lexer))->tipo != T_EOF)
     {

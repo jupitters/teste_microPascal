@@ -1,6 +1,5 @@
-Linha:1 | Coluna:1 <PAL_RES, program>
-Linha:1 | Coluna:9 <T_ID, 0>
-Linha:1 | Coluna:16 <SMB_SEM, ;>
+Linha:1 | Coluna:22 <T_ID, 0>
+Linha:1 | Coluna:29 <SMB_SEM, ;>
 Linha:2 | Coluna:1 <PAL_RES, var>
 Linha:3 | Coluna:1 <T_ID, 1>
 Linha:3 | Coluna:2 <SMB_COM, ,>
@@ -15,8 +14,8 @@ Linha:4 | Coluna:9 <SMB_SEM, ;>
 Linha:5 | Coluna:1 <PAL_RES, begin>
 Linha:6 | Coluna:1 <T_ID, 1>
 Linha:6 | Coluna:3 <OP_ASS, :=>
-Linha:6 | Coluna:8 <NUM_INT, 10>
-Linha:6 | Coluna:10 <SMB_SEM, ;>
+Linha:6 | Coluna:6 <NUM_INT, 10>
+Linha:6 | Coluna:8 <SMB_SEM, ;>
 Linha:7 | Coluna:1 <T_ID, 2>
 Linha:7 | Coluna:3 <OP_ASS, :=>
 Linha:7 | Coluna:6 <NUM_INT, 20>
@@ -53,11 +52,11 @@ Linha:13 | Coluna:12 <NUM_INT, 100>
 Linha:13 | Coluna:16 <PAL_RES, do>
 Linha:14 | Coluna:1 <PAL_RES, begin>
 Linha:15 | Coluna:1 <T_ID, 3>
-Linha:15 | Coluna:3 <OP_ASS, :e=>
-Linha:15 | Coluna:7 <T_ID, 3>
-Linha:15 | Coluna:9 <OP_MUL, *>
-Linha:15 | Coluna:11 <NUM_FLT, 1.5>
-Linha:15 | Coluna:14 <SMB_SEM, ;>
+Linha:15 | Coluna:3 <OP_ASS, :=>
+Linha:15 | Coluna:6 <T_ID, 3>
+Linha:15 | Coluna:8 <OP_MUL, *>
+Linha:15 | Coluna:10 <NUM_FLT, 1.5>
+Linha:15 | Coluna:13 <SMB_SEM, ;>
 Linha:16 | Coluna:1 <T_ID, 1>
 Linha:16 | Coluna:3 <OP_ASS, :=>
 Linha:16 | Coluna:6 <T_ID, 1>
